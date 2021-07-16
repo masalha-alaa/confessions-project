@@ -35,7 +35,7 @@ But first, I had to think of some features for the task. Here's what I came up w
 * 20 most common words in the dataset.
 * 20 most common word bigrams in the dataset.
 * 20 most common character trigrams in the dataset.
-* 20 best word features from the database according to Scikit-Learn's [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html).
+* 20 best word features from the dataset according to Scikit-Learn's [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html).
 * Sentiment analysis (a classifier that rates each post as positive / negative / neutral / compound).
 * The year of the post.
 * The month of the post.
