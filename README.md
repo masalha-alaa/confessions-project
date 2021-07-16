@@ -26,7 +26,7 @@ Maybe I could have deskewed the distribution by applying log on the target, and 
 
 <a name="ml-classif"/>
 
-## ML Classification
+## Classification (Machine Learning)
 I decided to simply predict whether the post received at least 9 likes or not. I chose the number 9 because it divides the dataset to 50-50 so it's balanced.
 
 To make it more interesting, I decided to try 2 approaches: a regular machine learning classifier, and a neural network (deep learning).
@@ -73,7 +73,7 @@ Here's how other features are distributed among the dataset:
 
 <a name="dl-classif"/>
 
-## DL Classification
+## Classification (Deep Learning)
 
 Not being satisfied with the RF results, I decided to give the RNN network a try. So I built a simple LSTM model, and fed it with the same features as I did for the RF. Unfortunately, the results were disappointing. The LSTM network didn't achieve more than a 57% accuracy after 30 epochs:
 
