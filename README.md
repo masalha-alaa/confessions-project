@@ -22,7 +22,7 @@ My next thought was to perform some type of classification. My dataset included:
 
 ![likes density distribution](https://user-images.githubusercontent.com/78589884/125991986-070e2821-d8d5-43c3-a6dd-0c66a7cfde03.png)
 
-Maybe I could have deskewed the distribution by applying log on the target, and then predict the number of likes using a Regressor. While that might be a nice approach, I decided to make my life easier and go on with another direction.
+Maybe I could have deskewed the distribution by applying log on the target, and then predict the number of likes using a Regressor. While that might have been a nice approach, I decided to make my life easier and go on with another direction.
 
 <a name="ml-classif"/>
 
