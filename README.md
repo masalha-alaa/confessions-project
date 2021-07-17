@@ -29,7 +29,7 @@ Maybe I could have deskewed the distribution by applying log on the target, and 
 ## Classification (Machine Learning)
 I decided to simply predict whether the post received at least 9 likes or not. I chose the number 9 because it divides the dataset to 50-50 so it's balanced.
 
-To make it more interesting, I decided to try 2 approaches: a regular machine learning classifier, and a neural network (deep learning).
+To make it more interesting, I decided to try 2 approaches: a regular machine learning classifier, and an artificial neural network (deep learning).
 
 But first, I had to think of some features for the task. Here's what I came up with:
 * 20 most common words in the dataset.
