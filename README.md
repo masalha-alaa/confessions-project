@@ -15,7 +15,7 @@
 
 ## Introduction
 
-In this project I used [facebook-scraper](https://github.com/masalha-alaa/facebook-scraper) to fetch 12000 Facebook MIT Confession posts, and tried to do various things on them.
+In this project I used [facebook-scraper](https://github.com/masalha-alaa/facebook-scraper) to fetch 12000 Facebook MIT Confession posts, and tried to do various things with them.
 My initial goal was Author Clustering. Namely, to map posts that belong to the same author together. Since the confessions are anonymous (no labels available), the only possible approach would be unsupervised learning. Unfortuntaely, I read a few papers that attempted to tackle this problem (authership clustering), such as [Clustering by Authorship Within and Across Documents, by Efstathios Stamatatos Et Al.](http://ceur-ws.org/Vol-1609/16090691.pdf), and the results were not promising. Other papers that use a supervised method, however, present promising results. For example: [\[1\]](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760185.pdf) and [\[2\]](https://arxiv.org/pdf/1912.10204.pdf). But since I can't use a supervised method with my dataset, I ditched this idea altogether.
 
 My next thought was to perform some type of classification. My dataset included: Post ID, Date, Text, Number of Likes. So I decided to try and predict the number of likes based on some features. Unfortunately, the likes distribution was very skewed:
