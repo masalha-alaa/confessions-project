@@ -81,7 +81,7 @@ Not being satisfied with the RF results, I decided to give the RNN network a cha
 
 So it almost didn't learn anything.
 
-The code for the deep learning approach can be fount at [/prediction/confessions_prediction_dl.ipynb](https://github.com/masalha-alaa/confessions-project/blob/master/prediction/confessions_prediction_dl.ipynb).
+The code for the deep learning approach can be found at [/prediction/confessions_prediction_dl.ipynb](https://github.com/masalha-alaa/confessions-project/blob/master/prediction/confessions_prediction_dl.ipynb).
 
 <a name="text-gener"/>
 
