@@ -75,7 +75,7 @@ Here's how other features are distributed among the dataset:
 
 ## Classification (Deep Learning)
 
-Not being satisfied with the RF results, I decided to give the RNN network a try. So I built a simple LSTM model, and fed it with the same features as I did for the RF. Unfortunately, the results were disappointing. The LSTM network didn't achieve more than a 57% accuracy after 30 epochs:
+Not being satisfied with the RF results, I decided to give the RNN network a chance. So I built a simple LSTM model, and fed it with the same features as I did for the RF. Unfortunately, the results were disappointing. The LSTM network didn't achieve more than a 57% accuracy after 30 epochs:
 
 ![RNN plot](https://user-images.githubusercontent.com/78589884/125994843-9ee357a5-13e0-4725-bb2c-e0d5e951775d.png)
 
