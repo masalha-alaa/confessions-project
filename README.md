@@ -46,7 +46,7 @@ But first, I had to think of some features for the task. Here's what I came up w
 
 I collected all these features, vectorized and scaled<sup>*</sup> them (tf-idf values for the first 5, and normal scaling for the others).
 
-Next, I tried several classifiers, such as: SVM, Naive Bayes (NB), Decision Tree (DT), Random Forest (RF), and KNN (code under [/prediction/main.py](https://github.com/masalha-alaa/confessions-project/blob/master/prediction/main.py)). The best three were: RF > DT > NB. The RF's result was 72% on the training set, and 63% on the test set. Given that our random chance baseline is 50%, it seems that the classifier has learned something; but I was really disappointed, since I didn't think this was such a difficult task. I looked at the classifier's features ranking, and here are its top 10 in a decreasing order:
+Next, I tried several classifiers, such as: SVM, Naive Bayes (NB), Decision Tree (DT), Random Forest (RF), and KNN (code under [/prediction/main.py](https://github.com/masalha-alaa/confessions-project/blob/master/prediction/main.py)). The best three were: RF > DT > NB. The RF result was 72% on the training set, and 63% on the test set. Given that our random chance baseline is 50%, it seems that the classifier has learned something; but I was really disappointed, since I didn't think this was such a difficult task. I looked at the classifier's features ranking, and here are its top 10 in a decreasing order:
 
 |   Rank        | Feature              | Importance    |
 | ---           | ---                  | ---           |
