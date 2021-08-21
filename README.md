@@ -7,7 +7,7 @@
 
 [Classification (Deep Learning)](#dl-classif)
 
-[Text Generation (RNN, Deep Learning, Keras)](#text-gener)
+[Text Generation (RNN, Deep Learning)](#text-gener)
 
 ---
 
@@ -73,7 +73,7 @@ Here's how other features are distributed among the dataset:
 
 <a name="dl-classif"/>
 
-## Classification (Deep Learning, Keras)
+## Classification (Deep Learning)
 
 Not being satisfied with the RF results, I decided to give the RNN network a chance. So I built a simple LSTM model, and fed it with the same features as I did for the RF. Unfortunately, the results were disappointing. The LSTM network didn't achieve more than 57% accuracy after 30 epochs:
 
