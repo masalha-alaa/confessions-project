@@ -106,6 +106,6 @@ _2015-12-17 02:53:53_
 _#3385_  
 _Honestly, math compenses should doesn't make you better. So I literally don't belong and confused."_
 
-Obviously those don't make a lot of sense, but I hope you at least had a laugh!
+Obviously those don't make a lot of sense, but I hope you at least had a laugh! Make sure you check out the full notebook [confessions_generation.ipynb](https://github.com/masalha-alaa/confessions-project/blob/master/generation/confessions_generation.ipynb).
 
 Next I'm going to deploy the model on some hosting website, and let it generate new confessions on a button click so people can have some fun!
