@@ -86,7 +86,7 @@ The code for the deep learning approach can be found at [/prediction/confessions
 <a name="text-gener"/>
 
 ## Text Generation (RNN, Deep Learning)
-Not being satisfied with the results, I decided to take this one step further. I wanted to build a generative AI model, that generates confessions from thin air, after being trained on my confessions dataset. I found this [TensorFlow tutorial](https://www.tensorflow.org/text/tutorials/text_generation), in which they built such a model to generate Shakespeare writings. With a few modifications, I managed to adapt it to my own needs and make it work with my confessions dataset. Basically the idea is to split the text samples into inputs `I` and labels `L` s.t.:
+Not being satisfied with the results, I decided to take this one step further. I wanted to build a generative AI model, that generates confessions from thin air, after being trained on my confessions dataset. I found this [TensorFlow tutorial](https://www.tensorflow.org/text/tutorials/text_generation), in which they build such a model to generate Shakespeare writings. With a few modifications, I managed to adapt it to my own needs and make it work with my confessions dataset. Basically the idea is to split the text samples into inputs `I` and labels `L` s.t.:
 
     I = S[:-1]
     L = S[1:]
