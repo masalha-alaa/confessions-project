@@ -27,7 +27,7 @@ Maybe I could have deskewed the distribution by applying a log function on the t
 <a name="ml-classif"/>
 
 ## Classification (Machine Learning)
-I decided to simply predict whether the post received at least 9 likes or not. I chose the number 9 because it divides the dataset to 50-50 so it's balanced.
+I decided to simply predict whether the post was popular or not (I defined 'popular' as: "received at least 9 likes"). I chose the number 9 because it divides the dataset to 50-50 so it's balanced.
 
 To make it more interesting, I decided to try 2 approaches: a regular machine learning classifier, and an artificial neural network (deep learning).
 
