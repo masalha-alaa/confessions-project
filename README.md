@@ -96,7 +96,7 @@ Once the data is ready, we let the model train to generate the labels out of the
 
 ![confessions-generation-gif](https://user-images.githubusercontent.com/78589884/125989278-ba093243-f2df-4852-9feb-bfcb803d598a.gif)
 
-As you can see, it's nowhere near perfect, but it's quite impressive how it quickly learned the structure of the posts (Date, Confession Number, Text). Also notice how at the beginning it writes out straight gibberish, but then its English starts improving little by little, until it converges after about 20 epochs.
+As you can see, it's nowhere near perfect, but it's quite impressive how it quickly learned the structure of the posts (Date, Confession Number, Text). Also notice how at the beginning it writes out total nonesense, but then its English starts improving little by little, until it converges after about 20 epochs.
 
 Some of the confessions it generated:
 
